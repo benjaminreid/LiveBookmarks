@@ -1,0 +1,14 @@
+{
+  "name": "LiveBoomarks",
+  "version": "1.0",
+  "manifest_version": 1,
+  "description": "Instantly search your bookmarks in a live search manor.",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "bookmarks.html"
+  },
+  "permissions": [
+    "bookmarks",
+    "http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"
+  ]
+}
