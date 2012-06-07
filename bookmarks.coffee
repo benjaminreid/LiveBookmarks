@@ -12,7 +12,7 @@ $(document).ready ->
     output = '<ul class="results-list">'
 
     buildHtml = (bookmark) ->
-      "<li><a href=\"#{bookmark.url}\">#{bookmark.title}</a></li>"
+      "<li><a href=\"#{bookmark.url}\" target=\"_blank\">#{bookmark.title}</a></li>"
 
     output += buildHtml bookmark for bookmark in bookmarks
     output += '</ul>'
