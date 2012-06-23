@@ -2,7 +2,7 @@
   "name": "LiveBoomarks",
   "version": "1.0",
   "manifest_version": 1,
-  "description": "Instantly search your bookmarks in a live search fashion.",
+  "description": "Live search through all your bookmarks!.",
   "browser_action": {
     "default_icon": "icon16.png",
     "default_popup": "bookmarks.html"
