@@ -7,9 +7,11 @@ $(document).ready ->
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
   `
-  
+
   results = $('#results')
   search  = $('#search')
+
+  search.focus()
 
   search.on 'keyup', () ->
     newSearch = $(this).val()
