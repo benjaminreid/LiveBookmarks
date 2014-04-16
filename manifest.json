@@ -1,7 +1,7 @@
 {
   "name": "LiveBookmarks",
-  "version": "1.0.2",
-  "manifest_version": 1,
+  "version": "1.0.3",
+  "manifest_version": 2,
   "description": "Live search through all your bookmarks!",
   "browser_action": {
     "default_icon": "icon16.png",
