@@ -1,23 +1,22 @@
-body {
-  font: 18px 'Helvetica Neue','Helvetica';
+* {
+  box-sizing: border-box;
 }
 
-.wrap {
-  border: solid 5px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  padding: 10px;
-  background: 
-  rgba(0, 0, 0, 0.04);
+body {
+  font: 18px/1.4 'Helvetica Neue','Helvetica';
+  padding: 20px;
+  margin: 0;
+  width: 400px;
 }
 
 .search-box {
-  width: 300px;
-  height: 20px;
-  padding: 10px;
-  border-radius: 5px;
-  border: solid 1px rgba(0,0,0,.5);
-  font: 18px 'Helvetica Neue','Helvetica';
+  width: 100%;
+  padding: 15px;
+  border-radius: 3px;
+  border: solid 2px rgba(0,0,0,.5);
+  font: inherit;
 }
+
 .search-box:focus {
   outline: none;
 }
